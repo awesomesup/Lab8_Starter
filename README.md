@@ -15,7 +15,7 @@ Lab done individually
 
 3) Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
 
-- No. "message" is a feature consisting of multiple functions. These functions can be/ and should be tested seperately. Sunch functions will inlude the function to send text, function to send images, and perhaps function to check if the receiver has received and even seen the message. However, if the message feature only had the send function, it would be possible to use unit test to test it. 
+- No. "message" is a feature consisting of multiple functions. These functions can be/ and should be tested seperately. Sunch functions will inlude the function to send text, function to send images, and perhaps function to check if the receiver has received and even seen the message. However, if the message feature only had the send function, it would be possible to use unit test to test it. Furthermore, since message can be any string, the test may work with an example string but it is not possible to test for all strings, hence making unit test for such a case, not as useful.
 
 
 4) Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.
